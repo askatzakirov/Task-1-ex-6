@@ -1,0 +1,377 @@
+body{
+	width: 100%;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+.main{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background: #FAFAFA;
+	padding: 30px;
+}
+.second{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex: 0.5;
+}
+#logotxt{
+	font-family: Brush Script MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 39px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #231F20;
+}
+.second_txt{
+	font-family: Gilroy;
+	font-size: 18px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+	color: #000000;
+}
+#gift{
+	font-family: Gilroy;
+	font-size: 18px;
+	line-height: 22px;
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #F7941E;
+	border: 1px solid #F7941E;
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding: 10px;
+
+}
+.main_grid{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex:2;
+
+}
+#gifttxt{
+	text-align: center;
+}
+.rect{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+	flex-wrap: wrap;
+	font-size: 12px;
+}
+.grid-container {
+  display: grid;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-columns: auto auto;
+}
+.grid-container div{
+	height: 500px;
+}
+.grid-item{
+	
+}
+#second,  #third3{
+	position: relative;
+}
+#first{
+}
+#first, #fourth4{
+	background: #F1F1F2;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+#first div{
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+	width: 400px;
+}
+#fourth4 div{
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 400px;
+}
+#how2{
+	font-family: Gilroy;
+	font-size: 40px;
+	line-height: 69px;
+
+	color: #000000;
+}
+#how1{
+	font-family: Gilroy;
+	font-size: 40px;
+	line-height: 69px;
+
+	color: #000000;
+}
+
+#cent{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#giftmore{
+	border: 1px solid #F7941E;
+	background: #F7941E;
+	border-radius: 5px;
+	font-family: Gilroy;
+	font-size: 18px;
+	line-height: 22px;
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+	padding: 10px;
+	width: 150px;
+}
+#more{
+	border: 1px solid #F7941E;
+	box-sizing: border-box;
+	border-radius: 5px;
+	width: 140px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#black{
+	width: 800px;
+	height: 370px;
+	background: #000000;
+}
+.blog h3{
+	font-family: Gilroy;
+	font-size: 32px;
+	line-height: 38px;
+	/* identical to box height */
+
+	text-align: center;
+
+	color: #000000;
+}
+.blog h4{
+	font-family: Gilroy;
+	font-size: 18px;
+	line-height: 135.94%;
+	/* identical to box height, or 24px */
+
+	text-align: center;
+
+	color: #000000;
+}
+.sign{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background: #F7941E;
+	padding: 30px;
+	flex-wrap: wrap;
+	height: 80px;
+}
+.sm{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex:0.3;
+}
+
+.sm1{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#find{
+	border:1px solid black;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-family: Gilroy;
+	font-size: 15px;
+	line-height: 22px;
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	background: #231F20;
+	border-radius: 5px;
+	color: #FFFFFF;
+}
+#how{
+	border: 1px solid black;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-family: Gilroy;
+	font-size: 15px;
+	line-height: 22px;
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	
+	border-radius: 5px;
+	color: #0000000;
+}
+.divlast{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.divmini{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background: #FFFFFF;
+	height: 280px;
+	padding-top: 70px;
+	width: 40%;
+}
+
+#whiteback{
+	height: 300px;
+	width: 100%;
+}
+.inside{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+	top: -300px;
+	width: 70%;
+}
+#txtmain{
+	font-family: bold;
+	font-size: 30px;
+	line-height: 140.62%;
+	/* or 34px */
+	color: #000000;
+	position: relative;
+	top: -50px;
+}
+#onetwo2{
+	font-family: bold;
+	font-size: 30px;
+	line-height: 140.62%;
+	/* or 34px */
+	color: #000000;
+	position: relative;
+}
+#txtsecond{
+	font-family: Gilroy;
+	font-size: 18px;
+	line-height: 140.62%;
+	/* or 25px */
+	color: #000000;
+}
+#txtsecond2{
+	font-family: Gilroy;
+	font-size: 18px;
+	line-height: 140.62%;
+	/* or 25px */
+	color: #000000;
+}
+#readd{
+	position: relative;
+	top: 40px;
+}
+.onetwo{
+	padding-left: 50px;
+}
+.learn{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 140%;
+	/* identical to box height, or 20px */
+
+	text-align: justify;
+	text-decoration: none;
+	color: #000000;
+}
+.bottomnav{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.bottomnav div{
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.lastt{
+	position: relative;
+	top: -20px;
+	background: #FAFAFA;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#logotxt2{
+	font-family: Brush Script MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 39px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #F7941E;
+	position: relative;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+.end{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.end div{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#end{
+	font-family: Gilroy;
+	font-size: 25px;
+	line-height: 140.62%;
+	/* identical to box height, or 20px */
+
+	text-align: center;
+
+	color: #000000;
+}
